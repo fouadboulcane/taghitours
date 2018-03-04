@@ -21,7 +21,7 @@ li {
 a {
   text-decoration: none;
   transition: all 500ms ease-in-out;
-  color: tomato; }
+  color: #f59e07; }
 
 a:hover,
 a:active {
@@ -51,7 +51,7 @@ p {
 .title-underline {
   width: 30px;
   height: 1px;
-  background: tomato;
+  background: #f59e07;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 30px; }
@@ -162,7 +162,7 @@ header nav a:hover {
 
 header.smaller {
   height: 90px;
-  background: tomato;
+  background: #f59e07;
   padding: 0; }
 
 header.smaller h1#logo {
@@ -274,8 +274,8 @@ header.smaller nav .topnav {
 
 .hero input:hover {
   background: rgba(0, 0, 0, 0.2) !important;
-  color: tomato !important;
-  border: 1px solid tomato !important; }
+  color: #f59e07 !important;
+  border: 1px solid #f59e07 !important; }
 
 .searchbox {
   position: absolute;
@@ -298,7 +298,7 @@ header.smaller nav .topnav {
   margin: 0; }
 
 .searchbox .nav-tabs .nav-item a.active {
-  background: tomato;
+  background: #f59e07;
   color: white;
   border: none; }
 
@@ -340,7 +340,7 @@ header.smaller nav .topnav {
   font-family: 'century gothic', Arial, sans-serif; }
 
 .pricing h4 {
-  color: tomato; }
+  color: #f59e07; }
 
 .pricing .card {
   margin: auto;
@@ -358,7 +358,7 @@ header.smaller nav .topnav {
 
 .pricing .card-block input {
   color: white;
-  background: tomato;
+  background: #f59e07;
   padding: 7px; }
 
 .pricing .card-block input:hover {
@@ -377,7 +377,7 @@ header.smaller nav .topnav {
   overflow: hidden; }
 
 .OverlayText {
-  background: tomato;
+  background: #f59e07;
   bottom: 0;
   font-size: 14px;
   padding: 5px 10px;
@@ -399,7 +399,7 @@ header.smaller nav .topnav {
   height: 80px;
   border-radius: 100%;
   font-size: 35px;
-  background: tomato;
+  background: #f59e07;
   color: #f5f5f5;
   margin: auto;
   line-height: 100%;
@@ -417,7 +417,7 @@ header.smaller nav .topnav {
 
 .alloffers a:hover {
   text-decoration: none;
-  color: tomato; }
+  color: #f59e07; }
 
 .alloffers a:hover .offeron img {
   margin-top: 24px; }
@@ -524,7 +524,7 @@ header.smaller nav .topnav {
   font-size: 13px; }
 
 .footer h4 {
-  color: tomato; }
+  color: #f59e07; }
 
 .footer .social {
   font-size: 20px;
@@ -538,7 +538,7 @@ header.smaller nav .topnav {
 
 .footer .subinput {
   color: white;
-  background: tomato;
+  background: #f59e07;
   padding: 10px 18px;
   font-size: 12px;
   border: none; }
@@ -555,7 +555,7 @@ header.smaller nav .topnav {
   background: #fff;
   color: #000;
   font-size: 13px;
-  border-bottom: 2px solid tomato; }
+  border-bottom: 2px solid #f59e07; }
 
 .footer ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -586,7 +586,7 @@ header.smaller nav .topnav {
 .primary-button {
   padding: 6px 18px !important;
   background: #f59e07;
-  background: tomato;
+  background: #f59e07;
   border: none;
   font-size: 13px !important;
   color: white;
