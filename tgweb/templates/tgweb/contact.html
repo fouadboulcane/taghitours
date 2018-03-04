@@ -1,0 +1,82 @@
+{% extends "tgweb/base.html" %}
+
+
+{% block head_title %}{% endblock head_title %}
+
+{% block content %}
+
+
+{% load static %}
+
+
+
+<div class="contento">
+	
+
+	<div class="pagecover">
+		<h2 class="text-center">Contact Page</h2>
+	</div>
+
+
+	<!--Info Container -->
+	<section class="infos-container">
+		<div class="container">
+					<h1 class="text-center wow fadeInUp section-headone">
+		 				Taghit Tours
+		 			</h1>
+		 			<hr class="title-underline wow fadeInUp">
+
+			<div class="row">
+				<div class="col-lg-4" style="padding-right:25px;">
+					
+                 	<p>Taghit Tours est né avec l'ambition de partager avec vous sa connaissance du Sahara Algérien millénaire qui plonge son histoire dans la nuit des temps.<br><br>
+
+					Elle porte son nom d'une très belle oasis où se côtoient le sable et le palmier. C'est un lieu idéal pour une profonde évasion au milieu des dunes de sable doré, au milieu des palmeraies envoutantes et d'oasis émergeants comme un mirage.<br><br>
+					</p>
+				</div>
+				<div class="col-lg-4" style="padding-left:20px;">
+					
+					<p><img src="{% static "tgweb/images/streamline-icons/location-pin.png" %}">&nbsp; Cité des 40 villas n°06
+             		Birtouta,<br> Alger 94158, Algérie</p>
+					<p><img src="{% static "tgweb/images/streamline-icons/e-mail.png" %}">&nbsp; <a href="#">taghitours.dg@gmail.com</a></p>
+					<p><img src="{% static "tgweb/images/streamline-icons/iphone.png" %}">&nbsp; 021-44-46-28</p>
+					<p><img src="{% static "tgweb/images/streamline-icons/globe.png" %}">&nbsp; <a href="#">www.taghitours.com</a></p>
+				</div>
+				<div class="col-lg-4" style="padding-left:15px;">
+				     
+				 
+                 	 <form action="" method="post" class="messageform">
+				     	{% csrf_token %}
+				     	<!--
+				     	<input type="text" class="textinput" placeholder="Username" name="cont_name"><br>
+					 	<input type="text" class="textinput" placeholder="Email" name="cont_email"><br>
+					 	<textarea type=="text" placeholder="Your Comment" name="cont_comment"></textarea></text><br>
+					 	-->
+					 	{{ form.as_p }}
+					 	<input type="submit"  value="Envoyer" class="primary-button primary-button-rd" name="submit">
+					 	
+						
+				     
+					 </form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End Info Container -->
+	
+	<!--Map Container -->
+	<section class="map-container">
+		<div id="map"></div>
+	</section>
+	<!--End Map Container -->
+
+</div>
+
+
+
+
+
+
+
+
+{% endblock content %}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block head_title %}Taghit tours{% endblock head_title %}</title>
+
+	
+	{% include 'tgweb/snippets/css.html' %}
+	
+	
+</head>
+<body>
+
+
+<!--
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█......The New Models ......█
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+ -->
+
+
+
+<!-- NAVIGATION -->
+{% include 'tgweb/snippets/nav.html' %}
+<!--END NAVIGATION -->
+
+{% block content %}
+
+
+{% endblock content %}
+
+
+
+<!--fOOTER -->
+{% include 'tgweb/snippets/footer.html' %}
+<!--END FOOTER-->
+
+
+
+{% include 'tgweb/snippets/js.html' %}
+</body>
+</html>

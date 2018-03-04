@@ -1,0 +1,36 @@
+{% load static %}
+<!-- NAVIGATION -->
+<header>
+    <div class="container clearfix">
+        
+        
+		<h1 id="logo">
+            <img src="{% static "tgweb/images/whitetaghit.png" %}" class="img-fluid" style="">
+        </h1>
+		
+
+		<div>
+            
+    		<nav class="intnav">
+                <nav class="topnav" style=""><h5>Contactez-nous :  taghitours@gmail.com &nbsp; |    &nbsp;021444628 / 0559495507&nbsp; AR|FR</h5></nav>
+                {% with request.resolver_match.url_name as url_name %}
+            	<a href="{% url 'index' %}" class="{% if url_name == 'index' %}selected{% endif %}">ACCUEIL</a>
+            	<a href="{% url 'presentation' %}" class="{% if url_name == 'presentation' %}selected{% endif %}">PRESENTATION</a>
+            	<a href="{% url 'reservation' %}" class="{% if url_name == 'reservation' %}selected{% endif %}">RESERVATION</a>
+            	<a href="{% url 'promos' %}" class="{% if url_name == 'promos' %}selected{% endif %}">PROMOS</a>
+            	<a href="{% url 'contact' %}" class="{% if url_name == 'contact' %}selected{% endif %}">CONTACT</a>
+                {% endwith %} 
+         	</nav>
+  		</div>
+
+       
+        <nav class="navbar-collapse collapse">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'presentation' %}">Presentation</a>
+            <a href="{% url 'reservation' %}">Reservation</a>
+            <a href="{% url 'promos' %}">Promos</a>
+            <a href="{% url 'contact' %}">Contact</a>
+        </nav>
+    </div>
+</header><!-- /header -->
+<!--END NAVIGATION -->
